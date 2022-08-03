@@ -1,5 +1,6 @@
-#include <iostream>
+#include <stdio.h>
 
+#include <iostream>
 using namespace std;
 extern int sum_diagonal(int array[4][4]);
 
