@@ -10,6 +10,6 @@ int sum_diagonal(int array[4][4]) {
       }
     }
   }
-  std::cout << sum << std::endl;
+
   return sum;
 }
