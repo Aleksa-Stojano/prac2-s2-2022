@@ -9,8 +9,6 @@ void print_scaled(int array[3][3], int scale) {
       array[i][j] = array[i][j] * scale;
       if (j == 2) {
         printf("%d\n", array[i][j]);
-      } else if (i == 2) {
-        printf("%d", array[i][j]);
       } else {
         printf("%d ", array[i][j]);
       }
