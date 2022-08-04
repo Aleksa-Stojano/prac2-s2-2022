@@ -9,12 +9,9 @@ int sum_min_max(int integers[], int length) {
   if (length < 1) {
     return -1;
   }
-  int sum = 0;
   int min = array_min(integers, length);
   int max = array_max(integers, length);
-  for (int i = 0; i < length; i++) {
-    sum += integers[i];
-  }
+  int sum = min + max;
   return sum;
 }
 
